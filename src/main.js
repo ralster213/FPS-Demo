@@ -1134,7 +1134,7 @@ class FirstPersonCameraDemo {
 
     this.uiScene_.add(this.sprite2_);
     const message = 'Use W, A, S, D to move. Click to shoot. Space to jump.\n Clear the balls out of the zone!';
-    const messageSprite = renderMessage(message, 550, 40, 24, 'black');
+    const messageSprite = renderMessage(message, 500, 40, 24, 'black');
     messageSprite.scale.set(3, 3 * this.camera_.aspect, 3);
     messageSprite.position.set(-0.5, -1, -1);
     this.uiScene_.add(messageSprite);
